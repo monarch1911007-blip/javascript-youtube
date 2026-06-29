@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+//**********************************
+
+// Stack / Heap
+// primitive datatype ko store krta hai.
+
+ let a= 10;
+ let b = a;
+
+ a = 50
+ console.log (a)
+
+ let userone = {
+       email : "shadow123@gmail.com",
+       password: "shadow@123"
+
+ }
+
+ let usertwo = userone
+
+ usertwo.email = "ateeb12342gmail.com"
+ 
+ console.log (userone.email);
+ console.log (usertwo.email);
